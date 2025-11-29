@@ -62,7 +62,8 @@ RUN gem install winrm \
     winrm-fs \
     stringio \
     logger \
-    fileutils
+    fileutils \
+    csv
 
 # Clean and remove useless files
 RUN rm -rf /opt/evil-winrm/resources > /dev/null 2>&1 && \
